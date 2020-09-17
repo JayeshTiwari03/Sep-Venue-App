@@ -10,7 +10,7 @@ const Carousel = () => {
     infinite: true,
     autoplay: true,
     speed: 100,
-  };
+  };  
 
   return (
     <div
