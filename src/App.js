@@ -4,6 +4,9 @@ import Header from "./components/header_footer/Header";
 import Featured from "./components/featured";
 import VenueNfo from "./components/venueNfo";
 import Highlights from "./components/highlights";
+import { Button } from "@material-ui/core";
+import Pricing from "./components/pricing";
+import Footer from "./components/header_footer/Footer";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Featured />
       <VenueNfo />
       <Highlights />
+      <Button />
+      <Pricing />
+      <Footer />
     </div>
   );
 }
