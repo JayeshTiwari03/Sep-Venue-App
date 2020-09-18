@@ -7,6 +7,7 @@ import Highlights from "./components/highlights";
 import { Button } from "@material-ui/core";
 import Pricing from "./components/pricing";
 import Footer from "./components/header_footer/Footer";
+import { Element } from "react-scroll";
 
 function App() {
   return (
@@ -15,11 +16,19 @@ function App() {
       style={{ height: "1500px", background: "cornflowerblue" }}
     >
       <Header />
-      <Featured />
-      <VenueNfo />
-      <Highlights />
+      <Element name="featured">
+        <Featured />
+      </Element>
+      <Element name="venuenfo">
+        <VenueNfo />
+      </Element>
+      <Element name="highlights">
+        <Highlights />
+      </Element>
       <Button />
-      <Pricing />
+      <Element name="pricing">
+        <Pricing />
+      </Element>
       <Footer />
     </div>
   );
