@@ -1,21 +1,29 @@
 import React from "react";
 import "./resources/styles.css";
+
 import Header from "./components/header_footer/Header";
 import Featured from "./components/featured";
 import VenueNfo from "./components/venueNfo";
 import Highlights from "./components/highlights";
-import { Button } from "@material-ui/core";
 import Pricing from "./components/pricing";
 import Footer from "./components/header_footer/Footer";
+import Location from "./components/location";
+
+import { Button } from "@material-ui/core";
 import { Element } from "react-scroll";
 
 function App() {
   return (
     <div
       className="App"
-      style={{ height: "1500px", background: "cornflowerblue" }}
+      style={{ 
+        height: "1500px", 
+        background: "cornflowerblue" 
+      }}
     >
+
       <Header />
+
       <Element name="featured">
         <Featured />
       </Element>
@@ -29,6 +37,10 @@ function App() {
       <Element name="pricing">
         <Pricing />
       </Element>
+      <Element name="location">
+        <Location />
+      </Element>
+      
       <Footer />
     </div>
   );

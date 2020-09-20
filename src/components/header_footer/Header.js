@@ -5,6 +5,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./SideDrawer";
 
+
 export default class header extends Component {
   state = {
     drawerOpen: false,
@@ -46,8 +47,8 @@ export default class header extends Component {
       >
         <Toolbar>
           <div className="header_logo">
-            <div className="font_kumbh header_logo_venue">Venue</div>
-            <div className="header_logo_title">Events and Fun</div>
+            <div className="font_kufam header_logo_venue">Bhiyaoo</div>
+            <div className="header_logo_title">Events & Fun</div>
           </div>
 
           <IconButton
