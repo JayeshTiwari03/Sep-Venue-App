@@ -5,9 +5,9 @@ import Zoom from "react-reveal/Zoom";
 export default class Pricing extends Component {
   state = {
     prices: [100, 200, 300, 400],
-    positions: ["Balcony", "Down", "Up", 'Inside'],
-    desc: ["Best one", "Second Best", "Third Best", 'Loose End'],
-    linkto: ["some", "some", "some", 'none'],
+    positions: ["L-1 Top", "L-2 Middle", "L-3 Front", "L-4 Stand"],
+    desc: ["Topmost seats with limited view of the stage", "Middle seats with easy access to F&Bs section", "Front row seated with clear view of artist", "Standing arrangement closest to the main stage"],
+    linkto: ["/", "/", "/", "/"],
     delay: [500, 0, 500, 600],
   };
 

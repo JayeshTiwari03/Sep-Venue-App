@@ -36,12 +36,12 @@ class Discount extends Component {
 
           <Slide right>
             <div className="discount_description">
-              <h3>Purchase tickets before 20th JUNE</h3>
+              <h3>Purchase tickets before 5th September</h3>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+                If you purchase tickets for the events before the date specified
+                above, we will reward you with cashback. Along with 30% instant
+                discount, the cashback earned can be used for your future
+                bookings.
               </p>
               <MyButton
                 text="Purchase tickets"

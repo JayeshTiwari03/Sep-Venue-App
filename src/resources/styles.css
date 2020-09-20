@@ -20,7 +20,10 @@ body {
 .bck_yellow {
   background: #ffa800;
 }
-
+a {
+  text-decoration: none;
+  
+}
 .iconImage {
   width: 20px;
   margin-right: 10px;
