@@ -1,6 +1,6 @@
-Venue App for the best events in the town!
+Bhiyaoo - Event Showcase App built in ReactJS App
 
-Made with ReactJS.
+Made with ReactJS and MaterialUI
 
 You can do this to run this App in your system
 
